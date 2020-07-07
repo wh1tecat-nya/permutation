@@ -1,0 +1,9 @@
+{
+	"roots": ["<rootDir>/src", "<rootDir>/__tests__"],
+	"testMatch": ["**/__tests__/**/*.+(ts|js)", "**/?(*.)+(spec|test).+(ts|js)"],
+	"transform": {
+		"^.+\\.(ts|tsx)$": "ts-jest"
+	},
+	"transformIgnorePatterns": ["/node_modules/"],
+	"coverageReporters": ["text"]
+}
